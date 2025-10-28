@@ -61,6 +61,11 @@ const ex = await import("@rsvim/ex.rsvim");
 ex.setup();
 ```
 
+## Project Progress
+
+- `write`/`w`
+- `quit`/`q`
+
 ## Supporting the Project
 
 If you like RSVIM, please consider sponsoring it. Your support encourages contributors and maintainers of this project, and other fees or efforts spent on it.
