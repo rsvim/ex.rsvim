@@ -63,6 +63,8 @@ ex.setup();
 
 ## Project Progress
 
+Vim contains a lot of ex commands, this section will trace
+
 - 🚧 `write`/`w`
 - 🚧 `quit`/`q`
 
