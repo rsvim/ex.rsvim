@@ -6,8 +6,6 @@ Ex commands plugin for the [Rsvim](https://github.com/rsvim/rsvim) editor.
 
 This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a user experience compatible with [Vim](https://www.vim.org/).
 
-The main branch of this plugin is always consistent with Rsvim project's main branch, for a released version, please use the version branch, for example "v0.1.2".
-
 Contributions are always welcomed :) .
 
 ## Installation
@@ -46,6 +44,12 @@ npm install @rsvim/ex.rsvim@v0.1.2
 # main branch
 npm install @rsvim/ex.rsvim@main
 ```
+
+> [!TIP] **Which version should I use?**
+>
+> If you are using a release version of Rsvim, please use a branch with the same version of this plugin, for example use "v0.1.2" branch from this plugin for Rsvim v0.1.2 release.
+>
+> If you are using a nightly or dev version of Rsvim, please use the "main" branch of this plugin since it is always consistent with Rsvim project's main branch.
 
 ## Setup
 
