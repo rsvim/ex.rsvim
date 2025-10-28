@@ -87,8 +87,8 @@ Vim contains a lot of ex commands, which cannot be done all at once. This sectio
 
 | Status | Command | Alias | Description                       | Since Version |
 | ------ | ------- | ----- | --------------------------------- | ------------- |
-| 🚧     | `quit`  | `q`   | Quit editor                       |               |
-| 🚧     | `write` | `w`   | Save current buffer to filesystem |               |
+| 🚧     | `quit`  | `q`   | Quit editor                       | v0.1.2        |
+| 🚧     | `write` | `w`   | Save current buffer to filesystem | v0.1.2        |
 
 ## Development
 
