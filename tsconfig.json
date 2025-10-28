@@ -5,6 +5,7 @@
     "allowUnusedLabels": false,
     "checkJs": true,
     "declaration": true,
+    "declarationDir": "types",
     "keyofStringsOnly": false,
     "lib": ["esnext"],
     "module": "esnext",
@@ -19,6 +20,8 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noUncheckedIndexedAccess": false,
+    "outDir": "lib",
+    "rootDir": "src",
     "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
@@ -30,8 +33,6 @@
     "removeComments": true,
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "rootDir": "src",
-    "outDir": "lib"
+    "isolatedModules": true
   }
 }
