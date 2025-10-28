@@ -4,7 +4,11 @@ Ex commands plugin for the [Rsvim](https://github.com/rsvim/rsvim) editor.
 
 ## About
 
-This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for [Rsvim](https://github.com/rsvim/rsvim) editor, aims to provide a user experience compatible with [Vim](https://www.vim.org/).
+This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a user experience compatible with [Vim](https://www.vim.org/).
+
+The main branch of this plugin is always consistent with Rsvim project's main branch, for a released version, please use the "vx.x.x" branch.
+
+Contributions are always welcomed :) .
 
 ## Installation
 
@@ -40,10 +44,6 @@ ex.setup();
 const ex = await import("@rsvim/ex.rsvim");
 ex.setup();
 ```
-
-## Contribution
-
-Contributions are always welcomed.
 
 ## Supporting the Project
 
