@@ -63,10 +63,19 @@ ex.setup();
 
 ## Project Progress
 
-Vim contains a lot of ex commands, this section will trace
+Vim contains a lot of ex commands, which cannot be done all at once. This section trace the status of each command with four symbols: 🚧 Working in Progress.
 
-- 🚧 `write`/`w`
-- 🚧 `quit`/`q`
+<details>
+
+<ul>
+<li>
+`write`/`w` 🚧 - Save buffer to file system.
+</li>
+<li>
+`quit`/`q` 🚧 - Quit editor.
+</li>
+</ul>
+</details>
 
 ## Supporting the Project
 
