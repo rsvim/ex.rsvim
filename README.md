@@ -6,7 +6,7 @@ Ex commands plugin for the [Rsvim](https://github.com/rsvim/rsvim) editor.
 
 This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a user experience compatible with [Vim](https://www.vim.org/).
 
-The main branch of this plugin is always consistent with Rsvim project's main branch, for a released version, please use the "vx.x.x" branch.
+The main branch of this plugin is always consistent with Rsvim project's main branch, for a released version, please use the version branch, for example "v0.1.2".
 
 Contributions are always welcomed :) .
 
