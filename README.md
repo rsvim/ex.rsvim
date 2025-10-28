@@ -63,7 +63,7 @@ ex.setup();
 
 ## Project Progress
 
-Vim contains a lot of ex commands, which cannot be done all at once. This section trace the status of each command with four symbols: 🚧 Working in Progress or Planned, ✅ Ready to use, ⚠ Not exist or Missing.
+Vim contains a lot of ex commands, which cannot be done all at once. This section trace the status of each command with four symbols: 🚧 Working in Progress or Planned, ✅ Ready to use, 🔴 Not exist or Missing.
 
 <details>
 
