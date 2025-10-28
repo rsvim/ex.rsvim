@@ -96,12 +96,16 @@ Vim contains a lot of ex commands, which cannot be done all at once. This sectio
 
 Contributions are always welcomed :)
 
+Source typescript files are placed in the `src` directory, compiled javascript files are placed in the `lib` directory, generated type files (`.d.ts`) are placed in the `types` directory. Please **DO NOT** manually edit files under `lib` and `types` directories.
+
 To development this plugin, please setup the development environment with:
 
 1. Install [node.js](https://nodejs.org).
 2. Install dev dependencies with `npm i`.
 
-Source typescript files are placed in the `src` directory, once finished your code, please run command `tsc` to compile typescript into javascript.
+To format source code, please run `npm run prettier` command, it will format all the typescript files under `src` directory.
+
+To compile typescript into javascript, please run `npm run tsc` command, it will compile typescript into javascript (in the `lib` directory) and generate type files (in the `types` directory).
 
 ## Supporting the Project
 
