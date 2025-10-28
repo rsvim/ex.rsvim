@@ -1,4 +1,4 @@
-export async function write(ctx: any): Promise<void> {
+async function write(ctx: any): Promise<void> {
   const bufId = ctx.currentBufferId as number;
   try {
     const written = Rsvim.rt.writeSync(bufId);
@@ -9,3 +9,10 @@ export async function write(ctx: any): Promise<void> {
     Rsvim.cmd.echo("Bye");
   }
 }
+
+export default {
+  name: "write",
+  callback: write,
+  attributes: { bang: false, nargs: "0" },
+  options: { alias: "w", force: true },
+};
