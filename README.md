@@ -8,6 +8,8 @@ This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#
 
 ## Installation
 
+Go to your Rsvim config home, then install with `git` or `npm`:
+
 ### git
 
 If you're using `$XDG_CONFIG_HOME/rsvim` as Rsvim config home, please install with:
@@ -22,4 +24,16 @@ If you're using `$HOME/.rsvim` as Rsvim config home, please install with:
 git clone --depth=1 https://github.com/rsvim/ex.rsvim $HOME/.rsvim/@rsvim/ex.rsvim
 ```
 
-### [npm](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager#introduction-to-npm)
+### npm
+
+If you're using `$XDG_CONFIG_HOME/rsvim` as Rsvim config home, please install with:
+
+```bash
+git clone --depth=1 https://github.com/rsvim/ex.rsvim $XDG_CONFIG_HOME/rsvim/@rsvim/ex.rsvim
+```
+
+If you're using `$HOME/.rsvim` as Rsvim config home, please install with:
+
+```bash
+git clone --depth=1 https://github.com/rsvim/ex.rsvim $HOME/.rsvim/@rsvim/ex.rsvim
+```
