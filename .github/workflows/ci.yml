@@ -1,0 +1,33 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: crate-ci/typos@master
+      - name: Tsc
+        run: |
+          npm install -g typescript
+          tsc --version
+          echo "show PWD=${PWD}"
+          echo "tsc"
+          tsc
+          git diff --exit-code HEAD
+      - name: Prettier
+        run: |
+          npm install -g prettier
+          prettier --version
+          echo "show PWD=${PWD}"
+          echo "prettier --check ./src/*.ts"
+          prettier --check ./src/*.ts
