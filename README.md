@@ -61,6 +61,10 @@ const ex = await import("@rsvim/ex.rsvim");
 ex.setup();
 ```
 
+## Configuration
+
+By default this plugin will use `{force: true}` option when creating a command, it can overwrite commands that have same command names or aliases. To avoid
+
 ## Commands Index
 
 Vim contains a lot of ex commands, which cannot be done all at once. This section trace the status of each command with four symbols: 🚧 Working in Progress or Planned, ✅ Ready to use, 🔴 Not exist or Missing.

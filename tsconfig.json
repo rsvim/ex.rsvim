@@ -30,8 +30,8 @@
     "removeComments": true,
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "outDir": "lib"
   },
-  "include": ["./rsvim_core/src/js/runtime/*.ts"],
-  "exclude": ["**/*.d.ts"]
+  "include": ["./src"]
 }
