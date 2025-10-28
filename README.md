@@ -35,3 +35,14 @@ Setup this plugin in Rsvim config entry script:
 const ex = import("@rsvim/ex.rsvim");
 ex.setup();
 ```
+
+## Supporting the Project
+
+If you like RSVIM, please consider sponsoring it. Your support encourages contributors and maintainers of this project, and other fees or efforts spent on it.
+
+- [GitHub Sponsor](https://github.com/sponsors/rsvim)
+- [Open Collective](https://opencollective.com/rsvim)
+
+## License
+
+Licensed under [Vim License](https://github.com/rsvim/rsvim/blob/main/LICENSE.txt).
