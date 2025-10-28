@@ -20,15 +20,31 @@ export RSVIM_CONFIG_HOME=$XDG_CONFIG_HOME/rsvim     # use $XDG_CONFIG_HOME
 export RSVIM_CONFIG_HOME=$HOME/.rsvim               # use $HOME
 ```
 
-Then install with either git or npm:
+Then install with either git or npm.
+
+### git
 
 ```bash
-# with git
-git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
+# version branch
+git clone --depth=1 --branch=v0.1.2 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
 
-# with npm
+# main branch
+git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
+```
+
+### npm
+
+```bash
 cd $RSVIM_CONFIG_HOME
+
+# latest version
 npm install @rsvim/ex.rsvim
+
+# specified version
+npm install @rsvim/ex.rsvim@v0.1.2
+
+# main branch
+npm install @rsvim/ex.rsvim@main
 ```
 
 ## Setup
