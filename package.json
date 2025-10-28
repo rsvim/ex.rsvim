@@ -16,7 +16,7 @@
   "license": "Vim",
   "author": "rsvim",
   "type": "esm",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "build",
     "test": "test"
