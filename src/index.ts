@@ -18,7 +18,7 @@ export type CommandDefinition = {
   options: CommandOptions;
 };
 
-type SetupOptions = {
+export type SetupOptions = {
   force: boolean;
 };
 
