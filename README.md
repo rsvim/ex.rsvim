@@ -101,7 +101,7 @@ To development this plugin, please setup the development environment with:
 1. Install [node.js](https://nodejs.org).
 2. Install dev dependencies with `npm i`.
 
-Source typescript files are placed in the `src` directory,
+Source typescript files are placed in the `src` directory, once finished your code, please run command `tsc` to compile typescript into javascript.
 
 ## Supporting the Project
 
