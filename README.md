@@ -16,10 +16,10 @@ If you're using `$XDG_CONFIG_HOME/rsvim` as Rsvim config home, please install wi
 git clone --depth=1 https://github.com/rsvim/ex.rsvim $XDG_CONFIG_HOME/rsvim/@rsvim/ex.rsvim
 ```
 
-If you're using `$XDG_CONFIG_HOME/rsvim` as Rsvim config home, please install with:
+If you're using `$HOME/.rsvim` as Rsvim config home, please install with:
 
 ```bash
-git clone --depth=1 https://github.com/rsvim/ex.rsvim $XDG_CONFIG_HOME/rsvim/@rsvim/ex.rsvim
+git clone --depth=1 https://github.com/rsvim/ex.rsvim $HOME/.rsvim/@rsvim/ex.rsvim
 ```
 
 ### [npm](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager#introduction-to-npm)
