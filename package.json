@@ -1,6 +1,6 @@
 {
   "name": "@rsvim/ex.rsvim",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "Ex commands plugin for Rsvim text editor",
   "keywords": [
     "rsvim"
