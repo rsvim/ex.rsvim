@@ -90,6 +90,13 @@ Vim contains a lot of ex commands, which cannot be done all at once. This sectio
 | 🚧     | `quit`  | `q`   | Quit editor                       |               |
 | 🚧     | `write` | `w`   | Save current buffer to filesystem |               |
 
+## Development
+
+To development this plugin, please setup the development environment with:
+
+1. Install [node.js](https://nodejs.org).
+2. Install dev dependencies with `npm i`.
+
 ## Supporting the Project
 
 If you like RSVIM, please consider sponsoring it. Your support encourages contributors and maintainers of this project, and other fees or efforts spent on it.
