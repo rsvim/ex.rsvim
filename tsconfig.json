@@ -31,6 +31,7 @@
     "strictNullChecks": true,
     "suppressExcessPropertyErrors": false,
     "suppressImplicitAnyIndexErrors": false,
+    "typeRoots": ["./node_modules/@types", "./types"],
     "useUnknownInCatchVariables": false,
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true
