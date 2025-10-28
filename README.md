@@ -101,6 +101,8 @@ To development this plugin, please setup the development environment with:
 1. Install [node.js](https://nodejs.org).
 2. Install dev dependencies with `npm i`.
 
+Source typescript files are placed in the `src` directory,
+
 ## Supporting the Project
 
 If you like RSVIM, please consider sponsoring it. Your support encourages contributors and maintainers of this project, and other fees or efforts spent on it.
