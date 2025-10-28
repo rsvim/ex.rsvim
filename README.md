@@ -11,9 +11,9 @@ This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#
 First define Rsvim config home directory:
 
 ```bash
-export RSVIM_CONFIG_HOME=$XDG_CONFIG_HOME/rsvim
+export RSVIM_CONFIG_HOME=$XDG_CONFIG_HOME/rsvim     # Use $XDG_CONFIG_HOME
 # or
-export RSVIM_CONFIG_HOME=$HOME/.rsvim
+export RSVIM_CONFIG_HOME=$HOME/.rsvim               # Use $HOME
 ```
 
 Then install with either git or npm:
