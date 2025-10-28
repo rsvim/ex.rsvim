@@ -34,7 +34,7 @@ function setup(setupOptions?: SetupOptions): void {
   setupOptions = setupOptions ?? { force: true };
   setDefaultSetupOptions(setupOptions, { force: true });
 
-  [quit, write].forEach((cmd: CommandDefinition) => {
+  [quit, write].forEach((cmd) => {
     let options = cmd.options;
     if (typeof setupOptions.force === "boolean") {
       options.force = setupOptions.force;
