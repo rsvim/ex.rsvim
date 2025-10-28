@@ -12,7 +12,7 @@ export type CommandDefinition = {
     attributes: CommandAttributes;
     options: CommandOptions;
 };
-type SetupOptions = {
+export type SetupOptions = {
     force: boolean;
 };
 declare function setup(setupOptions?: SetupOptions): void;
