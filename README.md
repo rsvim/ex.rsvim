@@ -65,20 +65,8 @@ ex.setup();
 
 Vim contains a lot of ex commands, which cannot be done all at once. This section trace the status of each command with four symbols: 🚧 Working in Progress or Planned, ✅ Ready to use, 🔴 Not exist or Missing.
 
-<details>
-
-<ul>
-<li>
-`write`/`w` 🚧 - Save buffer to file system.
-</li>
-<li>
-`quit`/`q` 🚧 - Quit editor.
-</li>
-<li>
-`quit`/`q` ✅ - Quit editor.
-</li>
-</ul>
-</details>
+- `write`/`w` 🚧 - Save buffer to file system.
+- `quit`/`q` 🚧 - Quit editor.
 
 ## Supporting the Project
 
