@@ -32,7 +32,12 @@ npm install @rsvim/ex.rsvim
 Setup this plugin in Rsvim config entry script:
 
 ```javascript
-const ex = import("@rsvim/ex.rsvim");
+// Setup synchronously:
+import ex from "@rsvim/ex.rsvim";
+ex.setup();
+
+// Or setup asynchronously:
+const ex = await import("@rsvim/ex.rsvim");
 ex.setup();
 ```
 
