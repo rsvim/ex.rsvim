@@ -36,6 +36,10 @@ const ex = import("@rsvim/ex.rsvim");
 ex.setup();
 ```
 
+## Contribution
+
+Contributions are always welcomed.
+
 ## Supporting the Project
 
 If you like RSVIM, please consider sponsoring it. Your support encourages contributors and maintainers of this project, and other fees or efforts spent on it.
