@@ -1,0 +1,4 @@
+[tools]
+node = "latest"
+"npm:prettier" = "latest"
+"npm:typescript" = "latest"
