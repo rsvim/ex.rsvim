@@ -21,33 +21,3 @@ git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/
 cd $RSVIM_CONFIG_HOME
 npm install @rsvim/ex.rsvim
 ```
-
-Go to your Rsvim config home, then install with `git` or `npm`:
-
-### git
-
-If you're using `$XDG_CONFIG_HOME/rsvim` as Rsvim config home, please install with:
-
-```bash
-git clone --depth=1 https://github.com/rsvim/ex.rsvim $XDG_CONFIG_HOME/rsvim/@rsvim/ex.rsvim
-```
-
-If you're using `$HOME/.rsvim` as Rsvim config home, please install with:
-
-```bash
-git clone --depth=1 https://github.com/rsvim/ex.rsvim $HOME/.rsvim/@rsvim/ex.rsvim
-```
-
-### npm
-
-If you're using `$XDG_CONFIG_HOME/rsvim` as Rsvim config home, please install with:
-
-```bash
-git clone --depth=1 https://github.com/rsvim/ex.rsvim $XDG_CONFIG_HOME/rsvim/@rsvim/ex.rsvim
-```
-
-If you're using `$HOME/.rsvim` as Rsvim config home, please install with:
-
-```bash
-git clone --depth=1 https://github.com/rsvim/ex.rsvim $HOME/.rsvim/@rsvim/ex.rsvim
-```
