@@ -31,7 +31,7 @@
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
+    "rootDir": "src",
     "outDir": "lib"
-  },
-  "include": ["./src"]
+  }
 }
