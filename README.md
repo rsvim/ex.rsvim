@@ -15,18 +15,18 @@ Contributions are always welcomed :) .
 First define Rsvim config home directory:
 
 ```bash
-export RSVIM_CONFIG_HOME=$XDG_CONFIG_HOME/rsvim     # Use $XDG_CONFIG_HOME
+export RSVIM_CONFIG_HOME=$XDG_CONFIG_HOME/rsvim     # use $XDG_CONFIG_HOME
 # or
-export RSVIM_CONFIG_HOME=$HOME/.rsvim               # Use $HOME
+export RSVIM_CONFIG_HOME=$HOME/.rsvim               # use $HOME
 ```
 
 Then install with either git or npm:
 
 ```bash
-# Download with git
+# with git
 git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
 
-# Or with npm
+# with npm
 cd $RSVIM_CONFIG_HOME
 npm install @rsvim/ex.rsvim
 ```
