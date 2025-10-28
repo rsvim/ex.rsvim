@@ -63,7 +63,14 @@ ex.setup();
 
 ## Configuration
 
-By default this plugin will use `{force: true}` option when creating a command, it can overwrite commands that have same command names or aliases. To avoid
+By default this plugin will use below configuration:
+
+```javascript
+{
+  // Override existing command when creating commands, if they have same command name or alias.
+  force: true;
+}
+```
 
 ## Commands Index
 
