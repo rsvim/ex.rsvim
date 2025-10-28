@@ -63,8 +63,8 @@ ex.setup();
 
 ## Project Progress
 
-- `write`/`w`
-- `quit`/`q`
+- 🚧 `write`/`w`
+- 🚧 `quit`/`q`
 
 ## Supporting the Project
 
