@@ -43,7 +43,9 @@ npm install @rsvim/ex.rsvim@v0.1.2
 npm install @rsvim/ex.rsvim@main
 ```
 
-> [!TIP] **Which version should I use?**
+> [!TIP]
+>
+> **Which version should I use?**
 >
 > If you are using a release version of Rsvim, please use a branch with the same version of this plugin, for example use "v0.1.2" branch from this plugin for Rsvim v0.1.2 release.
 >
