@@ -30,9 +30,13 @@ function setDefaultSetupOptions(options: object, defaultOptions: SetupOptions) {
   }
 }
 
+const DefaultSetupOptions: SetupOptions = {
+  force: true,
+};
+
 function setup(setupOptions?: SetupOptions): void {
-  setupOptions = setupOptions ?? { force: true };
-  setDefaultSetupOptions(setupOptions, { force: true });
+  setupOptions = setupOptions ?? DefaultSetupOptions;
+  setDefaultSetupOptions(setupOptions, DefaultSetupOptions);
 
   [quit, write].forEach((cmd) => {
     let options = cmd.options;
