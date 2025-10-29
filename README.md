@@ -61,7 +61,7 @@ ex.setup();
 
 The `setup` function accepts an optional object that contains all options, by default it is:
 
-https://github.com/rsvim/ex.rsvim/blob/a0cf5981a20d2a78ae78c793811efab5a7fe2eb7/src/index.ts?plain=1#L33-L35
+https://github.com/rsvim/ex.rsvim/blob/1f09822850f2d70af712c7d62eb5b08c84c647e2/src/index.ts?plain=1#L32-L36
 
 You can pass your own configuration options when setup:
 
