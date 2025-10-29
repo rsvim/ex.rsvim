@@ -57,15 +57,9 @@ Setup this plugin in Rsvim config entry script:
 // Setup synchronously:
 import ex from "@rsvim/ex.rsvim";
 ex.setup();
-
-// Or setup asynchronously:
-const ex = await import("@rsvim/ex.rsvim");
-ex.setup();
 ```
 
-## Configuration
-
-By default this plugin will use below configuration:
+The `setup` function accepts an optional object that contains all options, by default it is:
 
 ```javascript
 {
@@ -100,8 +94,9 @@ Source typescript files are placed in the `src` directory, compiled javascript f
 
 To development this plugin, please setup the development environment with:
 
-1. Install [node.js](https://nodejs.org).
-2. Install dev dependencies with `npm i`.
+1. Install [mise](https://github.com/jdx/mise), and run `mise i` to install python, node and other npm cli tools.
+2. Run `npm i` to install dependencies.
+3. Run `./sync.py` to sync Rsvim specific APIs declarations (e.g. `@types/rsvim`) and put in `./types` directory, it helps typescript recognize the `Rsvim` global object.
 
 To format source code, please run `npm run prettier` command, it will format all the typescript files under `src` directory.
 
