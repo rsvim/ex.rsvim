@@ -61,12 +61,7 @@ ex.setup();
 
 The `setup` function accepts an optional object that contains all options, by default it is:
 
-```javascript
-{
-  // Override existing command when creating commands, if encounter same name or alias.
-  force: true,
-}
-```
+https://github.com/rsvim/ex.rsvim/blob/a0cf5981a20d2a78ae78c793811efab5a7fe2eb7/src/index.ts?plain=1#L33-L35
 
 You can pass your own configuration options when setup:
 
