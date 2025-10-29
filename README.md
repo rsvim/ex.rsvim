@@ -64,7 +64,7 @@ The `setup` function accepts an optional object that contains all options, by de
 ```javascript
 {
   // Override existing command when creating commands, if encounter same name or alias.
-  force: true;
+  force: true,
 }
 ```
 
