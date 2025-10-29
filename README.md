@@ -91,9 +91,13 @@ Source typescript files are placed in the `src` directory, compiled javascript f
 
 To development this plugin, please setup the development environment with:
 
-1. Install [mise](https://github.com/jdx/mise), and run `mise i` to install python, node and other npm cli tools.
-2. Run `npm i` to install dependencies.
-3. Run `./sync.py` to sync Rsvim specific APIs declarations (e.g. `@types/rsvim`) and put in `./types` directory, it helps typescript recognize the `Rsvim` global object.
+1. Install [mise](https://github.com/jdx/mise).
+2. Run `mise i` to install python, node and other npm cli tools.
+3. Run `npm i` to install dependencies.
+
+To sync Rsvim specific API declarations (e.g. `@types/rsvim`), please clone [rsvim](https://github.com/rsvim/rsvim) repo in the sibling directory under the same parent directory as _this_ repo, then run `./sync.py`.
+
+4. Run `./sync.py` to sync Rsvim specific APIs declarations (e.g. `@types/rsvim`) and put in `./types` directory, it helps typescript recognize the `Rsvim` global object.
 
 To format source code, please run `npm run prettier` command, it will format all the typescript files under `src` directory.
 
