@@ -82,3 +82,7 @@ export declare namespace RsvimOpt {
 export declare class RsvimRt {
     exit(exitCode?: number): void;
 }
+
+declare global {
+  const Rsvim: Rsvim;
+}
