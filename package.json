@@ -18,11 +18,9 @@
   "type": "module",
   "exports": "./lib/index.js",
   "scripts": {
-    "prettier": "npx prettier -w .",
     "test": "test"
   },
   "devDependencies": {
-    "prettier": "^3.6.2",
     "typescript": "^5.9.3"
   }
 }
