@@ -7,8 +7,8 @@ import os
 from pathlib import Path
 
 CWD = Path(os.getcwd())
-RSVIM_TYPES = CWD.parent / "rsvim" / "types" / "01__rsvim.d.ts"
-EX_TYPES = CWD / "types"
+RSVIM_TYPES = CWD.parent / "rsvim" / "types"
+EX_TYPES = CWD / "vendor" / "types"
 
 
 if __name__ == "__main__":
@@ -17,6 +17,9 @@ if __name__ == "__main__":
     logging.info(f"RSVIM_TYPES:{RSVIM_TYPES}")
     logging.info(f"EX_TYPES:{EX_TYPES}")
 
-    command = f"cp {RSVIM_TYPES} {EX_TYPES}"
+    command = f"rm -rf {EX_TYPES}"
+    logging.info(f"Run: {command}")
+    os.system(command)
+    command = f"cp -rf {RSVIM_TYPES} {EX_TYPES}"
     logging.info(f"Run: {command}")
     os.system(command)
