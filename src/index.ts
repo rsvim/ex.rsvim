@@ -45,6 +45,8 @@ function setup(setupOptions?: SetupOptions): void {
     }
     Rsvim.cmd.create(cmd.name, cmd.callback, cmd.attributes, options);
   });
+
+  new TextDecoder();
 }
 
 export default { setup };

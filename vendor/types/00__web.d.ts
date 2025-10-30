@@ -30,13 +30,14 @@ export declare class TextDecoder {
 export declare namespace GlobalThis {
     type TypedArray = Int8Array | Uint8Array | Uint8ClampedArray | Int16Array | Uint16Array | Int32Array | Uint32Array | Float32Array | Float64Array | BigInt64Array | BigUint64Array;
 }
-export interface GlobalThis {
-    clearInterval(id: number): void;
-    clearTimeout(id: number): void;
-    queueMicrotask(callback: () => void): void;
-    reportError(error: any): void;
-    setInterval(callback: (...args: any[]) => void, delay?: number, ...args: any[]): number;
-    setTimeout(callback: (...args: any[]) => void, delay?: number, ...args: any[]): number;
-    TextEncoder: TextEncoder;
-    TextDecoder: TextDecoder;
+
+declare global {
+    function clearInterval(id: number): void;
+    function clearTimeout(id: number): void;
+    function queueMicrotask(callback: () => void): void;
+    function reportError(error: any): void;
+    function setInterval(callback: (...args: any[]) => void, delay?: number, ...args: any[]): number;
+    function setTimeout(callback: (...args: any[]) => void, delay?: number, ...args: any[]): number;
+    var TextEncoder: TextEncoder;
+    var TextDecoder: TextDecoder;
 }
