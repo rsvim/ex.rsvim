@@ -102,7 +102,7 @@ To sync Rsvim specific API declarations (e.g. `@types/rsvim`), please follow bel
 
 To format source code, please run command `prettier -w .` (or `npm run prettier`).
 
-To compile typescript into javascript, please run command `npm run tsc`.
+To compile typescript into javascript, please run command `tsc`.
 
 ## Supporting the Project
 
