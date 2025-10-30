@@ -83,5 +83,5 @@ export declare class RsvimRt {
     exit(exitCode?: number): void;
 }
 declare global {
-  var Rsvim: Rsvim;
+    var Rsvim: Rsvim;
 }
