@@ -45,8 +45,6 @@ function setup(setupOptions?: SetupOptions): void {
     }
     Rsvim.cmd.create(cmd.name, cmd.callback, cmd.attributes, options);
   });
-
-  setTimeout(() => {}, 1);
 }
 
 export default { setup };
