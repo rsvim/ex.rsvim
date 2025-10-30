@@ -15,7 +15,7 @@
   },
   "license": "Vim",
   "author": "rsvim",
-  "type": "esm",
+  "type": "module",
   "exports": "./lib/index.js",
   "scripts": {
     "tsc": "npx tsc",
