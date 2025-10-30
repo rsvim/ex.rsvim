@@ -1,3 +1,4 @@
+import { setTimeout } from "../vendor/types/00__web.js";
 import quit from "./quit.js";
 import write from "./write.js";
 
@@ -47,6 +48,8 @@ function setup(setupOptions?: SetupOptions): void {
   });
 
   new TextDecoder();
+
+  setTimeout(() => {}, 1);
 }
 
 export default { setup };
