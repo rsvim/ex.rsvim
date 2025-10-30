@@ -3,7 +3,7 @@ import type { CommandDefinition } from ".";
 async function write(ctx: any): Promise<void> {
   const bufId = ctx.currentBufferId as number;
   try {
-    const written = Rsvim.rt.writeSync(bufId);
+    const written = Rsvim.buf.writeSync(bufId);
     Rsvim.cmd.echo(
       `Saved buffer ${bufId}, ${written} bytes have been written.`,
     );

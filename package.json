@@ -15,15 +15,12 @@
   },
   "license": "Vim",
   "author": "rsvim",
-  "type": "esm",
+  "type": "module",
   "exports": "./lib/index.js",
   "scripts": {
-    "tsc": "npx tsc",
-    "prettier": "npx prettier -w .",
     "test": "test"
   },
   "devDependencies": {
-    "prettier": "^3.6.2",
     "typescript": "^5.9.3"
   }
 }

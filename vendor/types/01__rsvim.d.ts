@@ -1,3 +1,4 @@
+// @ts-nocheck
 export declare class Rsvim {
     readonly buf: RsvimBuf;
     readonly cmd: RsvimCmd;
@@ -59,6 +60,10 @@ export declare namespace RsvimFs {
         writeSync(buf: Uint8Array): number;
     }
 }
+export declare namespace RsvimOpt {
+    type FileEncodingOption = "utf-8";
+    type FileFormatOption = "dos" | "unix" | "mac";
+}
 export declare class RsvimOpt {
     get expandTab(): boolean;
     set expandTab(value: boolean);
@@ -75,14 +80,9 @@ export declare class RsvimOpt {
     get wrap(): boolean;
     set wrap(value: boolean);
 }
-export declare namespace RsvimOpt {
-    type FileEncodingOption = "utf-8";
-    type FileFormatOption = "dos" | "unix" | "mac";
-}
 export declare class RsvimRt {
     exit(exitCode?: number): void;
 }
-
 declare global {
-  const Rsvim: Rsvim;
+    var Rsvim: Rsvim;
 }
