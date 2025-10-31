@@ -18,7 +18,9 @@
   "type": "module",
   "exports": "./lib/index.js",
   "types": "./types/index.d.ts",
-  "scripts": {},
+  "scripts": {
+    "prettier": "prettier -w ."
+  },
   "devDependencies": {
     "@rsvim/types": "^0.1.2",
     "typescript": "^5.9.3"
