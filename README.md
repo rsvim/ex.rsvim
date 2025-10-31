@@ -4,7 +4,7 @@
 
 ## About
 
-This plugin implements [Vim](https://www.vim.org/)'s builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a compatible command-line user experience.
+This plugin implements [Vim](https://www.vim.org/)'s builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a compatible user experience on command-line.
 
 ## Installation
 
