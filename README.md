@@ -95,7 +95,9 @@ Contributions are always welcomed :)
 > [!WARNING]
 > Please **DO NOT** manually edit files under `lib` and `types`.
 
-To development this plugin, please setup the development environment with:
+### Development Environment
+
+Please setup the development environment with:
 
 1. Install [mise](https://github.com/jdx/mise).
 2. Run `mise i` to install python, node and other npm cli tools.
