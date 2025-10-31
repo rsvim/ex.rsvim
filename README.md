@@ -69,7 +69,11 @@ ex.setup({
 
 ## Commands Index
 
-Vim contains a lot of ex commands, which cannot be done all at once. This section trace the status of each command with four symbols: 🚧 Working in Progress or Planned, ✅ Ready to use, 🔴 Not exist or Missing.
+There are a lot of ex commands, which cannot be done all at once. This section trace the status of each command with below symbols:
+
+- 🚧 Working in Progress or Planned
+- ✅ Ready to use
+- 🔴 Not exist or Missing
 
 | Status | Command | Alias | Description                       | Since Version |
 | ------ | ------- | ----- | --------------------------------- | ------------- |
