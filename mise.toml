@@ -3,6 +3,5 @@ node = "latest"
 "npm:prettier" = "latest"
 "npm:markdownlint" = "latest"
 "npm:npm-check-updates" = "latest"
-"npm:typescript" = "latest"
 
 python = "latest"

@@ -1,10 +1,11 @@
 # ex.rsvim
 
-Ex commands plugin for the [Rsvim](https://github.com/rsvim/rsvim) editor.
+<a href="https://www.npmjs.com/package/@rsvim/ex.rsvim"><img alt="rsvim" src="https://img.shields.io/npm/v/%40rsvim%2Fex.rsvim" /></a>
+<a href="https://github.com/rsvim/ex.rsvim/actions/workflows/ci.yml"><img alt="ci.yml" src="https://img.shields.io/github/actions/workflow/status/rsvim/ex.rsvim/ci.yml?branch=main&label=ci" /></a>
 
 ## About
 
-This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a user experience compatible with [Vim](https://www.vim.org/).
+This plugin implements [Vim](https://www.vim.org/)'s builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a compatible user experience on command-line.
 
 ## Installation
 
@@ -18,11 +19,17 @@ export RSVIM_CONFIG_HOME=$HOME/.rsvim               # use $HOME
 
 Then install with either git or npm.
 
+> [!TIP]
+> **Which version should I use?**
+>
+> - For release version of Rsvim, use a "x.y.?" branch (for git) or the latest "x.y.?" version (for npm), for example use "v0.1.x" branch for Rsvim v0.1.2.
+> - For nightly or main branch of Rsvim, use "main" branch since this plugin is consistent with Rsvim's main branch.
+
 ### git
 
 ```bash
 # version branch
-git clone --depth=1 --branch=v0.1.2 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
+git clone --depth=1 --branch=v0.1.x https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
 
 # main branch
 git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
@@ -33,23 +40,9 @@ git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/
 ```bash
 cd $RSVIM_CONFIG_HOME
 
-# latest version
-npm install @rsvim/ex.rsvim
-
-# specified version
-npm install @rsvim/ex.rsvim@v0.1.2
-
-# main branch
-npm install @rsvim/ex.rsvim@main
+# version tag
+npm install @rsvim/ex.rsvim@v0.1.0
 ```
-
-> [!TIP]
->
-> **Which version should I use?**
->
-> If you are using a release version of Rsvim, please use a branch with the same version of this plugin, for example use "v0.1.2" branch from this plugin for Rsvim v0.1.2 release.
->
-> If you are using a nightly or dev version of Rsvim, please use the "main" branch of this plugin since it is always consistent with Rsvim project's main branch.
 
 ## Setup
 
@@ -61,11 +54,11 @@ import ex from "@rsvim/ex.rsvim";
 ex.setup();
 ```
 
-The `setup` function accepts an optional object that contains all options, by default it is:
+The `setup` function accepts an optional object, by default is:
 
 https://github.com/rsvim/ex.rsvim/blob/1f09822850f2d70af712c7d62eb5b08c84c647e2/src/index.ts?plain=1#L32-L36
 
-You can pass your own configuration options when setup:
+You can pass your custom options when setup:
 
 ```javascript
 import ex from "@rsvim/ex.rsvim";
@@ -76,33 +69,44 @@ ex.setup({
 
 ## Commands Index
 
-Vim contains a lot of ex commands, which cannot be done all at once. This section trace the status of each command with four symbols: 🚧 Working in Progress or Planned, ✅ Ready to use, 🔴 Not exist or Missing.
+There are a lot of ex commands, which cannot be done all at once. This section trace the status of each command with below symbols:
+
+- ✅ Ready to use
+- 🚧 Working in Progress or Planned
+- 🔴 Not exist or Missing
 
 | Status | Command | Alias | Description                       | Since Version |
 | ------ | ------- | ----- | --------------------------------- | ------------- |
-| 🚧     | `quit`  | `q`   | Quit editor                       | v0.1.2        |
-| 🚧     | `write` | `w`   | Save current buffer to filesystem | v0.1.2        |
+| 🚧     | `quit`  | `q`   | Quit editor                       | v0.1.x        |
+| 🚧     | `write` | `w`   | Save current buffer to filesystem | v0.1.x        |
 
-## Development
+## Contribution
 
 Contributions are always welcomed :)
 
-Source typescript files are placed in the `src` directory, compiled javascript files are placed in the `lib` directory, generated type files (`.d.ts`) are placed in the `types` directory. Please **DO NOT** manually edit files under `lib` and `types` directories.
+### Project Structure
 
-To development this plugin, please setup the development environment with:
+```
+|-lib    // Compiled javascript files
+|-src    // Typescript source files
+|-types  // Typescript type declarations
+```
+
+> [!WARNING]
+> Please **DO NOT** manually edit files under `lib` and `types`.
+
+### Development Environment
+
+Please setup the development environment with:
 
 1. Install [mise](https://github.com/jdx/mise).
 2. Run `mise i` to install python, node and other npm cli tools.
 3. Run `npm i` to install dependencies.
 
-To sync Rsvim specific API declarations (e.g. `@types/rsvim`), please follow below steps:
+Here are some useful tools:
 
-1. Clone [rsvim](https://github.com/rsvim/rsvim) repo in the sibling directory under the same parent directory as _this_ repo.
-2. Run `./sync.py` to copy typescript API declarations file to `./types` directory.
-
-To format source code, please run command `prettier -w .` (or `npm run prettier`).
-
-To compile typescript into javascript, please run command `tsc`.
+- `npm run prettier`: Format source code.
+- `npm run tsc`: Compile typescript to javascript and `.d.ts` declarations.
 
 ## Supporting the Project
 
