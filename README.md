@@ -54,7 +54,7 @@ import ex from "@rsvim/ex.rsvim";
 ex.setup();
 ```
 
-The `setup` function accepts an optional object that contains all options, by default it is:
+The `setup` function accepts an optional object, by default is:
 
 https://github.com/rsvim/ex.rsvim/blob/1f09822850f2d70af712c7d62eb5b08c84c647e2/src/index.ts?plain=1#L32-L36
 
