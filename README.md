@@ -47,14 +47,8 @@ git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/
 ```bash
 cd $RSVIM_CONFIG_HOME
 
-# latest version
-npm install @rsvim/ex.rsvim
-
 # specified version
-npm install @rsvim/ex.rsvim@v0.1.2
-
-# main branch
-npm install @rsvim/ex.rsvim@main
+npm install @rsvim/ex.rsvim@v0.1.0
 ```
 
 ## Setup
