@@ -19,7 +19,8 @@
   "exports": "./lib/index.js",
   "types": "./types/index.d.ts",
   "scripts": {
-    "prettier": "prettier -w ."
+    "prettier": "prettier -w .",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@rsvim/types": "^0.1.2",
