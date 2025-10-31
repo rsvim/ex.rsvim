@@ -80,11 +80,20 @@ There are a lot of ex commands, which cannot be done all at once. This section t
 | 🚧     | `quit`  | `q`   | Quit editor                       | v0.1.x        |
 | 🚧     | `write` | `w`   | Save current buffer to filesystem | v0.1.x        |
 
-## Development
+## Contribution
 
 Contributions are always welcomed :)
 
-Source typescript files are placed in the `src` directory, compiled javascript files are placed in the `lib` directory, generated type files (`.d.ts`) are placed in the `types` directory. Please **DO NOT** manually edit files under `lib` and `types` directories.
+### Project Structure
+
+```
+|-lib    // Compiled javascript files
+|-src    // Typescript source files
+|-types  // Typescript type declarations
+```
+
+> [!WARNING]
+> Please **DO NOT** manually edit files under `lib` and `types`.
 
 To development this plugin, please setup the development environment with:
 
