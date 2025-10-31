@@ -1,21 +1,21 @@
 import quit from "./quit.js";
 import write from "./write.js";
 
-export type CommandAttributes = {
+export type ExAttributes = {
   bang: boolean;
   nargs: "0" | "1" | "*" | "+" | "?";
 };
 
-export type CommandOptions = {
+export type ExOptions = {
   force: boolean;
   alias?: string;
 };
 
-export type CommandDefinition = {
+export type ExDefinition = {
   name: string;
   callback: (ctx: any) => Promise<void>;
-  attributes: CommandAttributes;
-  options: CommandOptions;
+  attributes: ExAttributes;
+  options: ExOptions;
 };
 
 export type SetupOptions = {
