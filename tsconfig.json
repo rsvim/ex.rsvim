@@ -30,7 +30,7 @@
     "strictNullChecks": true,
     "suppressExcessPropertyErrors": false,
     "suppressImplicitAnyIndexErrors": false,
-    "typeRoots": ["./node_modules/@types", "./vendor/types"],
+    "typeRoots": ["./node_modules/@rsvim"],
     "target": "esnext",
     "useUnknownInCatchVariables": false,
     "useDefineForClassFields": true,
