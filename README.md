@@ -18,6 +18,14 @@ export RSVIM_CONFIG_HOME=$HOME/.rsvim               # use $HOME
 
 Then install with either git or npm.
 
+> [!TIP]
+>
+> **Which version should I use?**
+>
+> If you are using a release version of Rsvim, please use a branch with the same version of this plugin, for example use "v0.1.2" branch from this plugin for Rsvim v0.1.2 release.
+>
+> If you are using a nightly or dev version of Rsvim, please use the "main" branch of this plugin since it is always consistent with Rsvim project's main branch.
+
 ### git
 
 ```bash
@@ -42,14 +50,6 @@ npm install @rsvim/ex.rsvim@v0.1.2
 # main branch
 npm install @rsvim/ex.rsvim@main
 ```
-
-> [!TIP]
->
-> **Which version should I use?**
->
-> If you are using a release version of Rsvim, please use a branch with the same version of this plugin, for example use "v0.1.2" branch from this plugin for Rsvim v0.1.2 release.
->
-> If you are using a nightly or dev version of Rsvim, please use the "main" branch of this plugin since it is always consistent with Rsvim project's main branch.
 
 ## Setup
 
