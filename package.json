@@ -21,6 +21,7 @@
     "test": "test"
   },
   "devDependencies": {
+    "@rsvim/types": "^0.1.2",
     "typescript": "^5.9.3"
   }
 }
