@@ -18,6 +18,7 @@ jobs:
       - uses: crate-ci/typos@master
       - name: Tsc
         run: |
+          npm i
           npm install -g typescript
           tsc --version
           echo "show PWD=${PWD}"
