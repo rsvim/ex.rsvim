@@ -1,6 +1,6 @@
 import type { ExDefinition } from ".";
 
-async function quit(ctx: any): Promise<void> {
+async function quit(): Promise<void> {
   Rsvim.rt.exit();
   Rsvim.cmd.echo("Bye");
 }
