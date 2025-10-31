@@ -21,7 +21,6 @@ Then install with either git or npm.
 ### git
 
 > [!TIP]
->
 > **Which version should I use?**
 >
 > - For release version of Rsvim, use a "x.y.?" branch, for example use "v0.1.x" branch for Rsvim v0.1.2.
@@ -38,7 +37,6 @@ git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/
 ### npm
 
 > [!TIP]
->
 > **Which version should I use?**
 >
 > - For release version of Rsvim, use the latest "x.y.?" version, for example use "0.1.0" version for Rsvim v0.1.2.
