@@ -49,7 +49,6 @@ npm install @rsvim/ex.rsvim@v0.1.0
 Setup this plugin in Rsvim config entry script:
 
 ```javascript
-// Setup synchronously:
 import ex from "@rsvim/ex.rsvim";
 ex.setup();
 ```
