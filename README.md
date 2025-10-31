@@ -24,8 +24,8 @@ Then install with either git or npm.
 >
 > **Which version should I use?**
 >
-> - For release version, use a **"major.minor.x"** branch, for example use "v0.1.x" branch for Rsvim v0.1.2 release.
-> - For nightly or main branch, use the "main" branch of this plugin since it is always consistent with Rsvim project's main branch.
+> - For release version of Rsvim, use a **"x.y.?"** branch, for example use "v0.1.x" branch for Rsvim v0.1.2.
+> - For nightly or main branch of Rsvim, use "main" branch since it is always consistent with Rsvim project's main branch.
 
 ```bash
 # version branch
