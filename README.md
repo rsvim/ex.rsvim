@@ -2,11 +2,9 @@
 
 <a href="https://www.npmjs.com/package/@rsvim/types"><img alt="rsvim" src="https://img.shields.io/npm/v/%40rsvim%2Ftypes" /></a>
 
-Ex commands for [Rsvim](https://github.com/rsvim/rsvim) editor.
-
 ## About
 
-This plugin implements builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a user experience compatible with [Vim](https://www.vim.org/).
+This plugin implements [Vim](https://www.vim.org/)'s builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, aims to provide a compatible command-line user experience.
 
 ## Installation
 
