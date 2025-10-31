@@ -45,7 +45,7 @@ git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/
 ```bash
 cd $RSVIM_CONFIG_HOME
 
-# specified version
+# compatible version with Rsvim
 npm install @rsvim/ex.rsvim@v0.1.0
 ```
 
