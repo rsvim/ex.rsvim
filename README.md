@@ -1,6 +1,6 @@
 # ex.rsvim
 
-<a href="https://www.npmjs.com/package/@rsvim/types"><img alt="rsvim" src="https://img.shields.io/npm/v/%40rsvim%2Ftypes" /></a>
+<a href="https://www.npmjs.com/package/@rsvim/ex.rsvim"><img alt="rsvim" src="https://img.shields.io/npm/v/%40rsvim%2Fex.rsvim" /></a>
 
 ## About
 
