@@ -58,7 +58,7 @@ The `setup` function accepts an optional object, by default is:
 
 https://github.com/rsvim/ex.rsvim/blob/1f09822850f2d70af712c7d62eb5b08c84c647e2/src/index.ts?plain=1#L32-L36
 
-You can pass your own configuration options when setup:
+You can pass your custom options when setup:
 
 ```javascript
 import ex from "@rsvim/ex.rsvim";
