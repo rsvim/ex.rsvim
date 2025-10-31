@@ -8,7 +8,7 @@ from pathlib import Path
 
 CWD = Path(os.getcwd())
 RSVIM_TYPES = CWD.parent / "rsvim" / "types"
-EX_TYPES = CWD / "vendor" / "types"
+EX_TYPES = CWD / "vendor" / "@rsvim" / "types"
 
 
 if __name__ == "__main__":
