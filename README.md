@@ -27,7 +27,7 @@ Then install with either git or npm.
 > - For nightly or main branch of Rsvim, use "main" branch since it is consistent with Rsvim's main branch.
 
 ```bash
-# version branch
+# compatible version branch with Rsvim
 git clone --depth=1 --branch=v0.1.x https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
 
 # main branch
