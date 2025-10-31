@@ -41,8 +41,8 @@ git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/
 >
 > **Which version should I use?**
 >
-> - For release version of Rsvim, use a "x.y.?" branch, for example use "v0.1.x" branch for Rsvim v0.1.2.
-> - For nightly or main branch of Rsvim, please install "main" branch with git.
+> - For release version of Rsvim, use a "x.y.?" version, for example use "0.1.0" version for Rsvim v0.1.2.
+> - For nightly or main branch of Rsvim, please install "main" branch with git, or use the latest stable "x.y.?" version.
 
 ```bash
 cd $RSVIM_CONFIG_HOME
