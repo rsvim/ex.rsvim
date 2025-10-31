@@ -71,8 +71,8 @@ ex.setup({
 
 There are a lot of ex commands, which cannot be done all at once. This section trace the status of each command with below symbols:
 
-- 🚧 Working in Progress or Planned
 - ✅ Ready to use
+- 🚧 Working in Progress or Planned
 - 🔴 Not exist or Missing
 
 | Status | Command | Alias | Description                       | Since Version |
