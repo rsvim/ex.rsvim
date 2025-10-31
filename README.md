@@ -103,9 +103,10 @@ Please setup the development environment with:
 2. Run `mise i` to install python, node and other npm cli tools.
 3. Run `npm i` to install dependencies.
 
-To format source code, please run command `prettier -w .` (or `npm run prettier`).
+Here are some useful tools:
 
-To compile typescript into javascript, please run command `tsc`.
+- `npm run prettier`: Format source code.
+- `npm run tsc`: Compile typescript to javascript and `.d.ts` declarations.
 
 ## Supporting the Project
 
