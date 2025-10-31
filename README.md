@@ -71,10 +71,10 @@ ex.setup({
 
 There are a lot of ex commands, which cannot be done all at once. This section trace the status of each command with below symbols:
 
-- ✅ Almost compatible and recommended
-- 🔰 Preliminarily completed and usable
-- 🚧 Working in Progress or Planned
-- 🔴 Not exist or Missing
+- ✅ Almost compatible
+- 🔰 Basically usable
+- 🚧 Working in Progress
+- 🔴 Missing
 
 | Status | Command | Alias | Description                       | Since Version |
 | ------ | ------- | ----- | --------------------------------- | ------------- |
