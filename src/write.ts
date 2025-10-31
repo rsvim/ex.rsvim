@@ -1,18 +1,19 @@
-import type { CommandDefinition } from ".";
+import type { ExDefinition } from ".";
+import type { RsvimCmd } from "../vendor/@rsvim/types/01__rsvim";
 
-async function write(ctx: any): Promise<void> {
-  const bufId = ctx.currentBufferId as number;
+async function write(ctx: RsvimCmd.CommandContext): Promise<void> {
+  const bufId = ctx.currentBufferId;
   try {
     const written = Rsvim.buf.writeSync(bufId);
     Rsvim.cmd.echo(
       `Saved buffer ${bufId}, ${written} bytes have been written.`,
     );
   } catch (exception) {
-    Rsvim.cmd.echo("Bye");
+    Rsvim.cmd.echo(`Failed to save buffer ${bufId}: ${exception}.`);
   }
 }
 
-const _default: CommandDefinition = {
+const _default: ExDefinition = {
   name: "write",
   callback: write,
   attributes: { bang: false, nargs: "0" },

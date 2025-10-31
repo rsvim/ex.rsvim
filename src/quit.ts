@@ -1,11 +1,11 @@
-import type { CommandDefinition } from ".";
+import type { ExDefinition } from ".";
 
-async function quit(ctx: any): Promise<void> {
+async function quit(): Promise<void> {
   Rsvim.rt.exit();
   Rsvim.cmd.echo("Bye");
 }
 
-const _default: CommandDefinition = {
+const _default: ExDefinition = {
   name: "quit",
   callback: quit,
   attributes: { bang: false, nargs: "0" },

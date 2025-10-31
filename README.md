@@ -71,14 +71,15 @@ ex.setup({
 
 There are a lot of ex commands, which cannot be done all at once. This section trace the status of each command with below symbols:
 
-- ✅ Ready to use
+- ✅ Almost fully compatible and recommended
+- 🔰 Preliminarily completed and usable
 - 🚧 Working in Progress or Planned
 - 🔴 Not exist or Missing
 
 | Status | Command | Alias | Description                       | Since Version |
 | ------ | ------- | ----- | --------------------------------- | ------------- |
-| 🚧     | `quit`  | `q`   | Quit editor                       | v0.1.x        |
-| 🚧     | `write` | `w`   | Save current buffer to filesystem | v0.1.x        |
+| 🔰     | `quit`  | `q`   | Quit editor                       | v0.1.x        |
+| 🔰     | `write` | `w`   | Save current buffer to filesystem | v0.1.x        |
 
 ## Contribution
 

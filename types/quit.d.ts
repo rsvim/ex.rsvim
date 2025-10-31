@@ -1,3 +1,3 @@
-import type { CommandDefinition } from ".";
-declare const _default: CommandDefinition;
+import type { ExDefinition } from ".";
+declare const _default: ExDefinition;
 export default _default;
