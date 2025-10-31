@@ -103,11 +103,6 @@ Please setup the development environment with:
 2. Run `mise i` to install python, node and other npm cli tools.
 3. Run `npm i` to install dependencies.
 
-To sync Rsvim specific API declarations (e.g. `@types/rsvim`), please follow below steps:
-
-1. Clone [rsvim](https://github.com/rsvim/rsvim) repo in the sibling directory under the same parent directory as _this_ repo.
-2. Run `./sync.py` to copy typescript API declarations file to `./types` directory.
-
 To format source code, please run command `prettier -w .` (or `npm run prettier`).
 
 To compile typescript into javascript, please run command `tsc`.
