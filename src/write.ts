@@ -9,7 +9,7 @@ async function write(ctx: RsvimCmd.CommandContext): Promise<void> {
       `Saved buffer ${bufId}, ${written} bytes have been written.`,
     );
   } catch (exception) {
-    Rsvim.cmd.echo(`Failed to save buffer ${bufId}`);
+    Rsvim.cmd.echo(`Failed to save buffer ${bufId}: ${exception}`);
   }
 }
 
