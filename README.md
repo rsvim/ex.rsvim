@@ -78,8 +78,8 @@ There are a lot of ex commands, which cannot be done all at once. This section t
 
 | Status | Command | Alias | Description                       | Since Version |
 | ------ | ------- | ----- | --------------------------------- | ------------- |
-| 🚧     | `quit`  | `q`   | Quit editor                       | v0.1.x        |
-| 🚧     | `write` | `w`   | Save current buffer to filesystem | v0.1.x        |
+| 🔰     | `quit`  | `q`   | Quit editor                       | v0.1.x        |
+| 🔰     | `write` | `w`   | Save current buffer to filesystem | v0.1.x        |
 
 ## Contribution
 
