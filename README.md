@@ -69,7 +69,7 @@ ex.setup({
 });
 ```
 
-## Commands Index
+## Command Index
 
 There are a lot of ex commands, which cannot be done all at once. This section trace the status of each command with below symbols:
 
