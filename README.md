@@ -12,9 +12,11 @@ This plugin implements [Vim](https://www.vim.org/)'s builtin [ex commands](https
 First go to Rsvim config home directory:
 
 ```bash
-cd $XDG_CONFIG_HOME/rsvim     # use $XDG_CONFIG_HOME
-# or
-cd $HOME/.rsvim               # use $HOME
+# use $XDG_CONFIG_HOME
+cd $XDG_CONFIG_HOME/rsvim
+
+# or use $HOME
+cd $HOME/.rsvim
 ```
 
 Then install with either git or npm.
@@ -31,15 +33,18 @@ Then install with either git or npm.
 # version branch
 git clone --branch=v0.1.x https://github.com/rsvim/ex.rsvim @rsvim/ex.rsvim
 
-# main branch
+# or main branch
 git clone https://github.com/rsvim/ex.rsvim @rsvim/ex.rsvim
 ```
 
 ### npm
 
 ```bash
-# version tag
+# tagged version
 npm install @rsvim/ex.rsvim@v0.1.0
+
+# or latest version
+npm install @rsvim/ex.rsvim
 ```
 
 ## Setup
