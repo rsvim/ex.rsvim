@@ -29,10 +29,10 @@ Then install with either git or npm.
 
 ```bash
 # version branch
-git clone --depth=1 --branch=v0.1.x https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
+git clone --branch=v0.1.x https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
 
 # main branch
-git clone --depth=1 https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
+git clone https://github.com/rsvim/ex.rsvim $RSVIM_CONFIG_HOME/@rsvim/ex.rsvim
 ```
 
 ### npm
