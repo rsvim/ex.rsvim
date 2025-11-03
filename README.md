@@ -5,7 +5,7 @@
 
 ## About
 
-Implements [Vim](https://www.vim.org/)'s builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, provide a compatible user experience on command-line.
+Implements [Vim](https://www.vim.org/)'s builtin [ex commands](https://vimhelp.org/index.txt.html#index.txt) for Rsvim, provide a compatible user experience in command-line.
 
 ## Installation
 
