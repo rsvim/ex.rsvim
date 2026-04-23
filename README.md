@@ -12,20 +12,23 @@ Implements [Vim](https://www.vim.org/)'s builtin [ex commands](https://vimhelp.o
 First go to Rsvim config home directory:
 
 ```bash
-# use $XDG_CONFIG_HOME
 cd $XDG_CONFIG_HOME/rsvim
-
-# or use $HOME
+# or
 cd $HOME/.rsvim
 ```
 
-Then install with either git or npm.
+<details>
+<summary><small><i style="color: grey;">Which version should I use?</i></small></summary>
+<small><i style="color: grey;">
 
-> [!TIP]
-> **Which version should I use?**
->
-> - For release version of Rsvim, use a "x.y.?" branch or tag.
-> - For development branch of Rsvim, use "main" branch.
+<ul>
+<li> For release version of Rsvim, use a "x.y.?" branch or tag. </li>
+<li> For development branch of Rsvim, use "main" branch. </li>
+</ul>
+
+</i></small>
+
+</details>
 
 ### git
 
