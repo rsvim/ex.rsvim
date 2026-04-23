@@ -1,5 +1,6 @@
 import quit from "./quit.js";
 import write from "./write.js";
+import writeQuit from "./writeQuit.js";
 
 export type ExAttributes = {
   bang: boolean;
@@ -38,7 +39,7 @@ function setup(setupOptions?: SetupOptions): void {
   setupOptions = setupOptions ?? DefaultSetupOptions;
   // setDefaultSetupOptions(setupOptions, DefaultSetupOptions);
 
-  [quit, write].forEach((cmd) => {
+  [quit, write, writeQuit].forEach((cmd) => {
     let options = cmd.options;
     if (typeof setupOptions.force === "boolean") {
       options.force = setupOptions.force;
